@@ -2,7 +2,7 @@
 
 # Personal portfolio
 
-> this is project is about setting lengushuru charles mobile first portfolio
+> this is project is about setting up lengushuru charles mobile first personal portfolio
 
 
 ## Built With
@@ -25,16 +25,15 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites 
 
 -basic knowlegde of CSS and HTML
+
 -basic kniwledge of git and github
+
 -basic knowlegde of operationg system
 
 ### Setup
 
 ### Install
 -install git and code editor of your choice
-### Deployment
-
-
 
 ## Author
 
