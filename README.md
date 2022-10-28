@@ -1,53 +1,61 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Personal portfolio
+# Personal portfolio Project
 
-> this is project is about setting up lengushuru charles mobile first personal portfolio
+> this is the mobile-first Lengushuru portfolio website 
 
 
 ## Built With
 
-- Major languages - CSS and HTML
+- Major languages HTML and CSS
 - Frameworks -none
-- Technologies used-Linters
+- Technologies used -Linters
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+-not available
 
 
 ## Getting Started
 
--clone this repository to your local repository
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites 
+   1.install git, if you already have git installed skip this step.
+ 
+   2.open command terminal
+ 
+   3.navigate to the directory you want remote directory to be cloned to
+ 
+   4.go to the git hub and copy HTTPS url of the repository
+ 
+   5.clone the repository by typing git clone "HTTPS url copied in step4"
+ 
+   6.Hit enter in the keyboard
+ 
+   7.navigate to the copy of your cloned repository using cd command
 
--basic knowlegde of CSS and HTML
+### Prerequisites
 
--basic kniwledge of git and github
-
--basic knowlegde of operationg system
-
-### Setup
+    -you need a basic knowdlenge on HTML, CSS and the code editor of your choice.
+    
+    -you need basic knowlege of the computer operating system of your choice
 
 ### Install
--install git and code editor of your choice
+ -install git and code editor of your choice
 
 ## Author
 
-👤 **Lengushuru charles**
+👤 **Lengushuru Charles**
 
 - GitHub: [@githubhandle](https://github.com/lengushuru)
-- Twitter: [@twitterhandle](https://twitter.com/lengushu)
+- Twitter: [@twitterhandle](https://twitter.com/ngushuru)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/lengushuru)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
