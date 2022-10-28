@@ -98,9 +98,13 @@ body {
     margin-bottom: 12px;
   }
 
-  .social--icons {
+  .social--icons > ul {
     display: flex;
     align-items: center;
+  }
+
+  .social--icons > ul > li {
+    list-style: none;
   }
 
   .social--icons a {
