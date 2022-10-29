@@ -4,6 +4,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #396df2;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background: #f7f7f9;
@@ -141,21 +146,49 @@ main {
   margin-right: 19px;
 }
 
+#portfolio {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
 .portfolio {
   box-sizing: border-box;
   margin: 20px 24px;
-  display: grid;
-  grid-template-rows: 236px 346px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 16px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
-.snapshot {
+.snapshot1 {
   width: 295px;
   height: 220px;
   border-radius: 8px;
+  background-image: url("./images/Snapshoot\ Portfolio.png");
+}
+
+.snapshot2 {
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  background-image: url("./images/Snapshoot_Portfolio2.png");
+}
+
+.snapshot3 {
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  background-image: url("./images/Snapshoot_Portfolio3.png");
+}
+
+.snapshot4 {
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  background-image: url("./images/Snapshoot_Portfolio4.png");
 }
 
 .title-heading {
@@ -390,7 +423,7 @@ main {
   margin-bottom: 13px;
 }
 
-.prog--lang > ul > li > div {
+.lang--container {
   display: flex;
   align-items: center;
   padding: 9px 12px;
@@ -437,11 +470,12 @@ main {
 }
 
 .skill {
-  height: 71px;
+  height: 60px;
   width: 303px;
   padding: 0 23px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #fff;
   border-bottom: 2px solid #dfe1e6;
 }
