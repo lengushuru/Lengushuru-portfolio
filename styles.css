@@ -4,14 +4,23 @@
   font-family: 'Poppins', sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: #396df2;
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  margin-bottom: 64px;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   background: #f7f7f9;
+}
+
+a {
+  text-decoration: none;
+  color: #396df2;
+  cursor: pointer;
 }
 
 /* mobile view */
@@ -28,10 +37,8 @@ main {
 
 .nav-bar {
   display: flex;
-  padding-top: 14px;
-  padding-bottom: 14px;
   align-items: center;
-  width: 100vw;
+  width: 375px;
   height: 48px;
   justify-content: space-between;
   position: sticky;
@@ -77,11 +84,11 @@ main {
   padding-bottom: 114px;
   padding-left: 24px;
   background-image: url("./images/header-background.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #fff;
   gap: 12px;
-  width: 97vw;
+  width: 351px;
   height: 604px;
 
   /* left: calc(50% - 375px/2); */
@@ -305,6 +312,7 @@ main {
 }
 
 .works {
+  clear: left;
   border: 2px solid #396df2;
   border-radius: 8px;
   color: #396df2;
@@ -327,7 +335,7 @@ main {
 
 .about-me {
   width: 375px;
-  height: 1263px;
+  height: 1125px;
   margin-top: 114px;
   padding-left: 24px;
   background: #fff;
