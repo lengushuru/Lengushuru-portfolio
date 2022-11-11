@@ -15,6 +15,8 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background: #f7f7f9;
+
+  /* overflow-x: hidden; */
 }
 
 a {
@@ -36,13 +38,14 @@ main {
 }
 
 .nav-bar {
-  display: flex;
-  align-items: center;
   width: 375px;
   height: 48px;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   position: sticky;
   top: 0;
+  z-index: 100;
   background-color: #fff;
 }
 
@@ -61,6 +64,10 @@ main {
   font-weight: 700;
   line-height: 20px;
   text-decoration: none;
+}
+
+.nav-links {
+  display: none;
 }
 
 .nav--menu {
@@ -83,7 +90,7 @@ main {
   padding-top: 114px;
   padding-bottom: 114px;
   padding-left: 24px;
-  background-image: url("./images/header-background.png");
+  background-image: url("./images/main_background.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #fff;
@@ -399,6 +406,7 @@ main {
 
 .abt-languages {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 36px;
   margin-bottom: 36px;
@@ -419,24 +427,35 @@ main {
 }
 
 .prog--lang > ul {
+  height: 380px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   list-style: none;
 }
 
-.prog--lang > ul > li {
-  width: 303px;
+.lang-lists {
   height: 66.72px;
   border-radius: 8px;
   margin-bottom: 13px;
 }
 
 .lang--container {
+  width: 303px;
   display: flex;
   align-items: center;
   padding: 9px 12px;
+  margin-bottom: 12px;
   border-radius: 8px;
   background: #f7f7f9;
+}
+
+.language-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+  width: 315px;
 }
 
 .lang-logo {
@@ -457,9 +476,9 @@ main {
   color: #253858;
 }
 
-.frameworks ul li {
+/* .frameworks ul li {
   list-style: none;
-}
+} */
 
 .frame-image {
   width: 21px;
@@ -556,10 +575,10 @@ main {
 }
 
 ::placeholder {
-  color: #b3bac5;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
+  color: #b3bac5;
 }
 
 #textarea {
