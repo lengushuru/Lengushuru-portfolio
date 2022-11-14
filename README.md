@@ -37,9 +37,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-    -you need a basic knowdlenge on HTML, CSS and the code editor of your choice.
+  -you need a basic knowdlenge on HTML, CSS and the code editor of your choice.
     
-    -you need basic knowlege of the computer operating system of your choice
+  -you need working knowlege of the computer operating system of your choice
 
 ### Install
  -install git and code editor of your choice
