@@ -255,7 +255,7 @@ main {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #172b4d;
 }
 
 .year {
@@ -266,7 +266,7 @@ main {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #172b4d;
 }
 
 .primary-text {
@@ -860,7 +860,7 @@ main {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 52px;
     display: flex;
     align-items: center;
