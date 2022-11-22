@@ -665,7 +665,11 @@ main {
     top: 0;
     left: 0;
   }
-
+  
+  .nav-menu {
+    display:none;
+  }
+  
   .page--logo {
     margin-left: 155px;
   }
