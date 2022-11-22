@@ -305,8 +305,6 @@ main {
   font-size: 13px;
   line-height: 16px;
   color: #172b4d;
-
-  /* color: #7a869a; */
 }
 
 .year {
@@ -317,8 +315,6 @@ main {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-
-  /* color: #7a869a; */
   color: #172b4d;
 }
 
@@ -665,11 +661,11 @@ main {
     top: 0;
     left: 0;
   }
-  
+
   .nav-menu {
-    display:none;
+    display: none;
   }
-  
+
   .page--logo {
     margin-left: 155px;
   }
