@@ -74,9 +74,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[mobile menu]**
-- **[pop up window]**
-- **[form validation]**
+- **mobile menu**
+- **pop up window**
+- **form validation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,11 +143,11 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[udate work section]**
-- [ ] **[rebuild portfolio with reactjs]**
-- [ ] **[new_feature_3]**
+
+- [ ] **update work section**
+- [ ] **rebuild portfolio with reactjs**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
