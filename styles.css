@@ -737,7 +737,6 @@ main {
 /* The Close Button */
 .closeModal {
   color: #aaa;
-
   /* position: relative; */
   float: right;
   font-size: 30px;
