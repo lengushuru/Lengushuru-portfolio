@@ -19,11 +19,30 @@ navLinks.forEach((n) => n.addEventListener('click', linkshandler));
 const cards = [
   {
     class: 'portfolio',
+    btnClass: 'display1',
+    btncls: 'close1',
+    popClass: 'pop1',
     title_heading: 'Tonic',
     imgdiv: 'snapshot1',
     heading3: 'CANOPY',
     list1: ['CANOPY', 'Back End Dev', '2015', './images/Counter.png'],
     paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    deskImage: './images/portfolio1.png',
+    list2: ['html', 'css', 'javaScript'],
+    cardButton: 'See Project',
+    cardButton1: 'https://github.com/lengushuru/Lengushuru-portfolio',
+    cardButton2: 'https://lengushuru.github.io/Lengushuru-portfolio/',
+  },
+  {
+    class: 'portfolio reverse',
+    btnClass: 'display2',
+    btncls: 'close2',
+    popClass: 'pop2',
+    title_heading: 'Multi-Post Stories',
+    imgdiv: 'snapshot2',
+    heading3: 'FACEBOOK',
+    list1: ['FACEBOOK', 'Full Stack Dev', '2015', './images/Counter.png'],
+    paragraph: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     deskImage: './images/portfolio2.png',
     list2: ['html', 'css', 'javaScript'],
     cardButton: 'See Project',
@@ -31,26 +50,16 @@ const cards = [
     cardButton2: 'https://lengushuru.github.io/Lengushuru-portfolio/',
   },
   {
-    class: 'portfolio reverse',
-    title_heading: 'Multi-Post Stories',
-    imgdiv: 'snapshot2',
-    heading3: 'FACEBOOK',
-    list1: ['FACEBOOK', 'Full Stack Dev', '2015', './images/Counter.png'],
-    paragraph: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    deskImage: './images/Snapshoot_Portfolio2.png',
-    list2: ['html', 'css', 'javaScript'],
-    cardButton: 'See Project',
-    cardButton1: 'https://github.com/lengushuru/Lengushuru-portfolio',
-    cardButton2: 'https://lengushuru.github.io/Lengushuru-portfolio/',
-  },
-  {
     class: 'portfolio',
+    btnClass: 'display3',
+    popClass: 'pop3',
+    btncls: 'close3',
     title_heading: 'Facebook 360',
     heading3: 'FACEBOOK',
     imgdiv: 'snapshot3',
     list1: ['FACEBOOK', 'Full Stack Dev', '2015', './images/Counter.png'],
     paragraph: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    deskImage: './images/Snapshoot_Portfolio3.png',
+    deskImage: './images/portfolio3.png',
     list2: ['html', 'css', 'javaScript'],
     cardButton: 'See Project',
     cardButton1: 'https://github.com/lengushuru/Lengushuru-portfolio',
@@ -58,12 +67,15 @@ const cards = [
   },
   {
     class: 'portfolio reverse',
+    btnClass: 'display4',
+    popClass: 'pop4',
+    btncls: 'close4',
     title_heading: 'Uber Navigation',
     heading3: 'Uber',
     imgdiv: 'snapshot4',
     list1: ['Uber', 'Full Stack Dev', '2015', './images/Counter.png'],
     paragraph: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    deskImage: './images/Snapshoot_Portfolio4.png',
+    deskImage: './images/portfolio4.png',
     list2: ['html', 'css', 'javaScript'],
     cardButton: 'See Project',
     cardButton1: 'https://github.com/lengushuru/Lengushuru-portfolio',
@@ -139,7 +151,7 @@ cards.forEach((card) => {
   cardBtn.className = 'works';
   cardContent.append(cardBtn);
   const btnLink = document.createElement('a');
-  btnLink.className = 'displayModal';
+  btnLink.className = card.btnClass;
   cardBtn.appendChild(btnLink);
   const btnTxt = document.createElement('p');
   btnTxt.textContent = 'See Project';
@@ -147,18 +159,22 @@ cards.forEach((card) => {
 });
 
 cards.forEach((card) => {
-  const [,,, li4] = card.list1;
+  const [, , , li4] = card.list1;
+  const modalMain = document.createElement('div');
+  modalMain.className = 'displayModals';
+  document.querySelector('#portfolio').appendChild(modalMain);
   const modal = document.createElement('div');
-  modal.className = 'modal';
-  document.querySelector('#portfolio').appendChild(modal);
+  modal.className = card.popClass;
+  modalMain.appendChild(modal);
   const content = document.createElement('div');
   content.className = 'modal-content';
   modal.appendChild(content);
   const closebtn = document.createElement('span');
   closebtn.innerHTML = '&times;';
   content.appendChild(closebtn);
-  closebtn.className = 'closeModal';
+  closebtn.className = card.btncls;
   const heading2 = document.createElement('h2');
+  // heading2.textContent = card.title_heading;
   content.appendChild(heading2);
   heading2.className = 'modalh2';
   const canopyDiv = document.createElement('div');
@@ -168,6 +184,7 @@ cards.forEach((card) => {
   mobileImage.className = 'mobile_image enlm';
   mobileImage.src = card.deskImage;
   content.appendChild(mobileImage);
+  // const desktopdiv
   const DeskImage = document.createElement('img');
   DeskImage.className = 'desktop_image  enl';
   DeskImage.src = card.deskImage;
@@ -178,7 +195,7 @@ cards.forEach((card) => {
   const heading3 = document.createElement('h3');
   canopyDiv.appendChild(heading3);
   heading3.className = 'modalHeader';
-  heading3.textContent = card.heading3;
+  heading3.textContent = card.title_heading;
   const paragraph = document.createElement('p');
   paragraph.className = 'card-content pop_paragh';
   ContentDiv.appendChild(paragraph);
@@ -247,19 +264,64 @@ cards.forEach((card) => {
 
   btnDiv.appendChild(source);
 });
-const buttons = document.querySelectorAll('.displayModal');
-const detailsWindow = document.querySelector('.modal');
-const closeModal = document.querySelector('.closeModal');
-buttons.forEach((button) => {
-  button.addEventListener('click', () => {
-    detailsWindow.style.display = 'block';
-  });
-  closeModal.addEventListener('click', () => {
-    detailsWindow.style.display = 'none';
-  });
-  window.onclick = (event) => {
-    if (event.target === detailsWindow) {
-      detailsWindow.style.display = 'none';
-    }
-  };
+
+const buttons = document.querySelector('.display1');
+const button1 = document.querySelector('.display2');
+const button2 = document.querySelector('.display3');
+const button3 = document.querySelector('.display4');
+const close1 = document.querySelector('.close1');
+const close2 = document.querySelector('.close2');
+const close3 = document.querySelector('.close3');
+const close4 = document.querySelector('.close4');
+
+const mainpop = document.querySelector('.displayModals');
+const detailsWindow1 = document.querySelector('.pop1');
+const detailsWindow2 = document.querySelector('.pop2');
+const detailsWindow3 = document.querySelector('.pop3');
+const detailsWindow4 = document.querySelector('.pop4');
+
+buttons.addEventListener('click', () => {
+  mainpop.style.display = 'block';
+  detailsWindow1.style.display = 'block';
+});
+button1.addEventListener('click', () => {
+  mainpop.style.display = 'block';
+  detailsWindow2.style.display = 'block';
+});
+
+button2.addEventListener('click', () => {
+  mainpop.style.display = 'block';
+  detailsWindow3.style.display = 'block';
+});
+
+button3.addEventListener('click', () => {
+  mainpop.style.display = 'block';
+  detailsWindow4.style.display = 'block';
+});
+close1.addEventListener('click', () => {
+  detailsWindow1.style.display = 'none';
+});
+close2.addEventListener('click', () => {
+  detailsWindow2.style.display = 'none';
+});
+close3.addEventListener('click', () => {
+  detailsWindow3.style.display = 'none';
+});
+close4.addEventListener('click', () => {
+  detailsWindow4.style.display = 'none';
+});
+
+const contactForm = document.getElementById('form');
+contactForm.addEventListener('submit', (event) => {
+  const emailInput = contactForm.elements.email;
+  const errorMsg = document.getElementById('errorMessage');
+
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    event.preventDefault();
+    errorMsg.classList.add('errorMessage');
+    errorMsg.innerText = 'Please enter the email address in lowercase!';
+  } else {
+    errorMsg.classList.remove('errorMessage');
+    contactForm.submit();
+  }
 });
