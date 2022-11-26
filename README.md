@@ -1,27 +1,130 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Personal portfolio Project
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-> this is the mobile-first Lengushuru portfolio website 
+Modify this file to match your project and remove sections that don't apply.
 
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-## Built With
+After you're finished please remove all the comments and instructions!
+-->
 
-- Major languages HTML and CSS
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 Personal portfolio Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Personal portfolio Project] <a name="about-project"></a>
+
+> this is the mobile-first Lengushuru portfolio website.
+
+**[Personal portfolio Project]** is a...
+
+## 🛠 Built With <a name="built-with"></a>
+
+- Major languages JavaScript, HTML and CSS
 - Frameworks -none
 - Technologies used -Linters
 
-## Live Demo (if available)
+### Tech Stack <a name="tech-stack"></a>
 
-[Live Demo Link](https://lengushuru.github.io/Lengushuru-portfolio/)
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
 
-## Getting Started
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-To get a local copy up and running follow these simple example steps.
+<!-- Features -->
 
-   1.install git, if you already have git installed skip this step.
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://lengushuru.github.io/Lengushuru-portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+ 1.install git, if you already have git installed skip this step.
  
    2.open command terminal
  
@@ -35,39 +138,83 @@ To get a local copy up and running follow these simple example steps.
  
    7.navigate to the copy of your cloned repository using cd command
 
+
 ### Prerequisites
 
-    -you need a basic knowdlenge on HTML, CSS and the code editor of your choice.
+In order to run this project you need:
+
+-you need a basic knowdlenge on HTML, CSS, javaScript and the code editor of your choice.
     
-    -you need basic knowlege of the computer operating system of your choice
+-you need basic knowlege of the computer operating system of your choice
 
 ### Install
+
+Install this project with:
+
  -install git and code editor of your choice
+ -clone the repository to your local evironment 
 
-## Author
+<!-- AUTHORS -->
 
-👤 **Lengushuru Charles**
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Lengushuru charles**
 
 - GitHub: [@githubhandle](https://github.com/lengushuru)
 - Twitter: [@twitterhandle](https://twitter.com/ngushuru)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/lengushuru)
 
+<!-- FUTURE FEATURES -->
 
-## 🤝 Contributing
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[udate work section]**
+- [ ] **[rebuild portfolio with reactjs]**
+- [ ] **[new_feature_3]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+> Write a message to encourage readers to support your project
 
-## 📝 License
+If you like this project Give a ⭐️!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+Hat tip to anyone whose code was used
+Inspiration
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
