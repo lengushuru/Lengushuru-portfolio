@@ -34,15 +34,15 @@
                     </div>
             </div>
             <div class="desk-top">
-                <a class="nav-ite" href="#potfolio">Portoflio</a>
-                <a class="nav-ite" href="#abut-me">About</a>
-                <a class="nav-ite" href="#cotainer">Contact</a>
+                <a class="nav-ite" href="#portfolio">Portoflio</a>
+                <a class="nav-ite" href="#about-me">About</a>
+                <a class="nav-ite" href="#container">Contact</a>
             </div>
         </nav>
     </header>
     <section class="main--content">
         <div class="about--container main-margin">
-           <h1>I’m Baraka<br>Glad to see you!</h1> 
+           <h1>I’m Baraka<br>Glad to see <br>you!</h1> 
         </div> 
         <div class="description--container main-margin">
            <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -59,21 +59,21 @@
         </div>
     </section>
     <section id="portfolio">
-        <div class="portfolio">
+        <!-- <div class="portfolio">
             <div class="snapshot1"></div>
             <div class="portfolio-content">
-                <div class="title-heading">
+                <div class="title_heading">
                     <h2>Tonic</h2>
                  </div>
-                 <div class="class-content">
-                     <ul>
+    
+                 <ul class="class-content">
                          <li class="canopy">CANOPY</li>
                          <li class="dot"><img src="./images/Counter.png" alt="dot"></li>
                          <li class="back-end">BACK END DEV</li>
                          <li class="dot"><img src="./images/Counter.png" alt="dot"></li>
                          <li class="year">2015</li>
-                     </ul>
-                 </div>
+                </ul>
+                
                  <div class="primary-text">
                      <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
                  </div>
@@ -85,7 +85,7 @@
                      </ul>
                  </div>
                  <div class="works">
-                    <a href="h"> <p>See Project</p></a>
+                    <a href="#"> <p>See Project</p></a>
                  </div>
             </div>  
         </div>
@@ -179,7 +179,7 @@
                      <a href="#"><p>See Project</p></a>
                  </div>
             </div>  
-        </div>
+        </div> -->
     </section>
     <section class="about-me" id="about-me">
      <div class="card-top">
@@ -243,7 +243,8 @@
             feature that you need built or a project that needs coding. I’d love
             to help with it
         </p>
-        <form class="form"action="https://formspree.io/f/moqbywzv" method="post">
+       
+        <form class="form" id="form" action="https://formspree.io/f/moqbywzv" method="post">
             <label for="name">
                <input class="inputs" name="name" id="name" type="text" placeholder="name" maxlength="30"required/>
             </label>
@@ -256,10 +257,11 @@
                 placeholder="Write your message here"></textarea>
             </label>
             <button class="form_btn" type="submit">Get It Touch</button>
+            <p class="errorMessage">Kindly write email in lowercase</p>
         </form>
+    
       </section>
     </main> 
     <script src="scripts.js"></script>
 </body>
 </html>
-
