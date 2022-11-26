@@ -737,8 +737,6 @@ main {
 /* The Close Button */
 .closeModal {
   color: #aaa;
-
-  /* position: relative; */
   float: right;
   font-size: 30px;
   font-weight: normal;
@@ -748,8 +746,6 @@ main {
 .mobile_image {
   max-width: 100%;
   height: auto;
-
-  /* background-repeat: no-repeat; */
 }
 
 .desktop_image {
