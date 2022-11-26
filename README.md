@@ -57,11 +57,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal portfolio Project] <a name="about-project"></a>
+# 📖 Personal portfolio Project <a name="about-project"></a>
 
-> this is the mobile-first Lengushuru portfolio website.
 
-**[Personal portfolio Project]** is a...
+**Personal portfolio Project** is a portfolio website desighned using mobile first approach.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,48 +68,21 @@ After you're finished please remove all the comments and instructions!
 - Frameworks -none
 - Technologies used -Linters
 
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[mobile menu]**
+- **[pop up window]**
+- **[form validation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://lengushuru.github.io/Lengushuru-portfolio/)
 
@@ -120,11 +92,11 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
- 1.install git, if you already have git installed skip this step.
+
+   1.install git, if you already have git installed skip this step.
  
    2.open command terminal
  
@@ -143,22 +115,23 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
--you need a basic knowdlenge on HTML, CSS, javaScript and the code editor of your choice.
+-basic knowdlenge on HTML, CSS, javaScript and the code editor of your choice.
     
--you need basic knowlege of the computer operating system of your choice
+-ybasic knowlege of the computer operating system of your choice
 
 ### Install
 
 Install this project with:
 
  -install git and code editor of your choice
+ 
  -clone the repository to your local evironment 
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project. -->
 
 👤 **Lengushuru charles**
 
@@ -192,7 +165,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+<!-- > Write a message to encourage readers to support your project -->
 
 If you like this project Give a ⭐️!
 
@@ -202,9 +175,10 @@ If you like this project Give a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+<!-- > Give credit to everyone who inspired your codebase. -->
 
 Hat tip to anyone whose code was used
+
 Inspiration
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
