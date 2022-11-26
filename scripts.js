@@ -147,7 +147,7 @@ cards.forEach((card) => {
 });
 
 cards.forEach((card) => {
-  const [li1,li2,li3, li4] = card.list1;
+  const [,,, li4] = card.list1;
   const modal = document.createElement('div');
   modal.className = 'modal';
   document.querySelector('#portfolio').appendChild(modal);
