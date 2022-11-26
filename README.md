@@ -74,9 +74,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[mobile menu]**
-- **[pop up window]**
-- **[form validation]**
+- **mobile menu**
+- **pop up window**
+- **form validation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
