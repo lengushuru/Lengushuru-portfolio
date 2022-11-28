@@ -24,7 +24,6 @@ a {
 }
 
 /* mobile view */
-
 main {
   display: flex;
   flex-wrap: wrap;
@@ -235,28 +234,28 @@ main {
   width: 295px;
   height: 220px;
   border-radius: 8px;
-  background-image: url("./images/Snapshoot\ Portfolio.png");
+  background-image: url("./images/portfolio1.png");
 }
 
 .snapshot2 {
   width: 295px;
   height: 220px;
   border-radius: 8px;
-  background-image: url("./images/Snapshoot_Portfolio2.png");
+  background-image: url("./images/portfolio2.png");
 }
 
 .snapshot3 {
   width: 295px;
   height: 220px;
   border-radius: 8px;
-  background-image: url("./images/Snapshoot_Portfolio3.png");
+  background-image: url("./images/portfolio3.png");
 }
 
 .snapshot4 {
   width: 295px;
   height: 220px;
   border-radius: 8px;
-  background-image: url("./images/Snapshoot_Portfolio4.png");
+  background-image: url("./images/portfolio4.png");
 }
 
 .title-heading {
@@ -284,7 +283,6 @@ main {
 }
 
 .canopy {
-  /* width: 55px; */
   height: 16px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -587,7 +585,6 @@ main {
 }
 
 .footer-div {
-  /* width: 400px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -619,14 +616,11 @@ main {
 }
 
 .form {
-  /* margin-left: 36px; */
   margin-top: 67px;
   margin-bottom: 45px;
   display: flex;
   flex-direction: column;
   width: 327px;
-
-  /* width: 80vw; */
 }
 
 .inputs {
@@ -677,7 +671,7 @@ main {
   border: 1px solid #fff;
 }
 
-.modal {
+.pop1 {
   display: none;
   position: fixed;
   z-index: 100;
@@ -688,8 +682,45 @@ main {
   overflow: hidden;
   align-items: center;
   background-color: #c1c7d0;
+}
 
-  /* background-color: #000; */
+.pop2 {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  align-items: center;
+  background-color: #c1c7d0;
+}
+
+.pop3 {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  align-items: center;
+  background-color: #c1c7d0;
+}
+
+.pop4 {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  align-items: center;
+  background-color: #c1c7d0;
 }
 
 .modal-content {
@@ -701,8 +732,6 @@ main {
   width: 340px;
   height: auto;
   margin: 20px 9vw;
-
-  /* background-color: black; */
   border-radius: 10px;
   padding-bottom: 25px;
 }
@@ -720,8 +749,6 @@ main {
   display: flex;
   flex-direction: row;
   gap: 20px;
-
-  /* margin-left: 19px; */
 }
 
 .modalh2 {
@@ -735,12 +762,19 @@ main {
 }
 
 /* The Close Button */
-.closeModal {
+.close1,
+.close2,
+.close3,
+.close4 {
   color: #aaa;
   float: right;
   font-size: 30px;
   font-weight: normal;
   margin-right: -85%;
+}
+
+.displayModals {
+  display: block;
 }
 
 .mobile_image {
@@ -806,7 +840,7 @@ main {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 30px;
   color: #172b4d;
 }
 
@@ -950,19 +984,19 @@ main {
   }
 
   .snapshot1 {
-    background-image: url("./images/desk1.svg");
+    background-image: url("./images/portfolio1.png");
   }
 
   .snapshot2 {
-    background-image: url("./images/portfolio3.png");
+    background-image: url("./images/portfolio2.png");
   }
 
   .snapshot3 {
-    background-image: url("./images/Snapshoot\ Portfolio.png");
+    background-image: url("./images/portfolio3.png");
   }
 
   .snapshot4 {
-    background-image: url("./images/Snapshoot_Portfolio2.png");
+    background-image: url("./images/portfolio4.png");
   }
 
   .primary-text {
@@ -1133,7 +1167,10 @@ main {
     padding: 0;
   }
 
-  .modal {
+  .pop1,
+  .pop2,
+  .pop3,
+  .pop4 {
     display: none;
     position: fixed;
     z-index: 100;
@@ -1187,8 +1224,6 @@ main {
 
   .see-more :hover {
     color: white !important;
-
-    /* background-color: #6070ff; */
     background-color: red;
   }
 
@@ -1226,13 +1261,14 @@ main {
   }
 
   .enlarge {
-    width: 100%;
-    height: auto;
+    width: 10%;
+    height: 50px;
   }
 
   .enl {
     margin: 0 8%;
-    width: 100%;
+    width: 80%;
+    height: auto;
   }
 
   .closeModal {
@@ -1240,6 +1276,6 @@ main {
     float: right;
     font-size: 28px;
     font-weight: bold;
-    margin-right: -90%;
+    margin-right: -98%;
   }
 }
