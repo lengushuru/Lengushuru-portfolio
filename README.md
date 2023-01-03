@@ -177,7 +177,7 @@ If you like this project Give a ⭐️!
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-Hat tip to anyone whose code was used
+special thanks to microverse, for helping me learn this skill i used to build this website
 
 Inspiration
 
