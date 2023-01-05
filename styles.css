@@ -920,6 +920,7 @@ main {
     display: flex;
     align-items: center;
     letter-spacing: 0.37px;
+    margin-bottom:18px;
   }
 
   .description--container p {
