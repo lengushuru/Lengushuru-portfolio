@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .section {
@@ -909,6 +910,7 @@ main {
     display: flex;
     letter-spacing: 0.37px;
     color: #091e42;
+    padding-bottom: 25px;
   }
 
   .about--container h1 {
@@ -920,7 +922,6 @@ main {
     display: flex;
     align-items: center;
     letter-spacing: 0.37px;
-    margin-bottom:18px;
   }
 
   .description--container p {
